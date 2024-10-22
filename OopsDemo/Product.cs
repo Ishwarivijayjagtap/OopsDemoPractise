@@ -11,12 +11,31 @@ namespace OopsDemo
          private int pid;
         private string name;
         private double price ,disprice;
+        public Product()
+        {
+            
+        }
         public Product( int id,string nm,double pp)
         {
             pid = id;
             name = nm;
             price = pp;
 
+        }
+        public int Pid
+        {
+            set { pid = value; }
+            get { return pid; }
+        }
+        public string Name
+        {
+            set { name = value; }
+            get { return name; }
+        }
+        public double Price
+        {
+            set { price = value; }
+            get { return price; }
         }
         public void CalDiscountedPrice()
         {

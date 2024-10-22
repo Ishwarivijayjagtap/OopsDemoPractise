@@ -43,9 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add.cs" />
     <Compile Include="Bank.cs" />
     <Compile Include="Book.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="Date.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="MethodOverlodingDemoTest.cs" />
+    <Compile Include="Payment.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
